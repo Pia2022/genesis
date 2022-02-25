@@ -175,9 +175,21 @@
         </section>
         <section>
             <div>
-                <form action=""></form>
+                <form action="form" autocomplete="off">
+                    <label for="Name" class="label" name-size>Name</label>
+                    <br>
+                    <input type="text" name="name" id="name" class="input-field" placeholder="Name" required maxlength="30">
+                    <br>
+                    <label for="email" class="label" email-size>Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" class="input-field" placeholder="Email" required maxlength="30">
+                    <br>
+                    <label for="message" class="label" message-size>Message</label>
+                    <br>
+                    <input type="text" name="message" id="message" class="input-field" placeholder="Message"> required maxlength="60"
+                    <button type="submit" class="submit" disabled>Submit</button>
+                </form>
             </div>
-            <div>Submit</div>
         </section>
         <section>
             <img src="images/map.png" alt="Map">
