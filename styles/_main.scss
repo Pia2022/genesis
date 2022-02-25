@@ -45,7 +45,25 @@ main {
     line-height: 23px;
 }
 
+.work-container {
+    justify-content: space-between;
+}
 
+.work {
+    width: 635px;
+    height: 106px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
 
-
-
+.multi-txt {
+    width: 93px;
+    height: 23px;
+    font-family: Mulish; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+}
