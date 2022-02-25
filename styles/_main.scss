@@ -10,13 +10,42 @@ main {
     align-items: center;
 }
 
-.head-txt {
-    width: 67px;
-    height: 23px;
-    font-family: 'Mulish', sans-serif;
+.mini-txt {
+    width: 173px;
+    height: 28px;
+    font-family: Mulish;
     font-weight: 700;
+    font-size: 22px;
+    line-height: 27,61px;
+    color: #4A4FF2;
+}
+
+.title {
+    width: 635px;
+    height: 191px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
+
+}
+
+.blue-txt {
+    color: #4A4FF2;
+}
+
+.quote {
+    width: 207px;
+    height: 23px;
+    font-family: Mulish;
+    font-weight: 400;
+    font-style: italic;
     font-size: 18px;
     line-height: 23px;
-/* identical to box height */
-    letter-spacing: -0.346154px;
 }
+
+
+
+
+

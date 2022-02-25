@@ -1,12 +1,35 @@
 
-main {
-    width: 1109px;
-    height: 23px;
+header {
+    width: 100%;
+    max-width: 1109px;
+    height: 100vh;
+    max-height: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     color: #111111;
 }
 
+.logo {
+    width: 90,13px;
+    height: 19,34px;    
+}
+
 .project {
-    Width: 67px;
+    width: 67px;
+    height: 23px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.contact {
+    width: 66px;
     height: 23px;
     font-family: Mulish;
     font-style: normal;
