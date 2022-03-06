@@ -1,0 +1,24 @@
+.text-project {
+    width: 100%;
+    max-width: 635px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-one {
+    width: 335px;
+    height: 343px;
+    position: absolute;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;   
+    display: flex;
+    flex: column;
+}
