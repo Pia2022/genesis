@@ -1,14 +1,17 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat (19,1fr);
-    grid-gap: 20px;
     width: 85%;
     height: 80%;
     background-color: white;
     /*box-shadow: 4px 4px 12px #000000;*/
     padding: 15px;
+}
+
+.grid-info {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat (19,1fr);
+    grid-gap: 20px;
 }
 
 .div {
